@@ -1,13 +1,18 @@
 // Questin No : 1 
 
+
 function inchToFeet(enterValue){
+
+    // Condition apply here 
     if(!Number.isInteger(enterValue) == true){
         return document.write("Please Enter a number:");
     }
     const getFeet = enterValue / 12;
     return getFeet;
 }
-var getResult = inchToFeet(parseFloat(prompt("Enter your height in inches:")));
+
+// Enter Value Here 
+var getResult = inchToFeet(parseFloat(prompt("Enter your height in inches :")));
 document.write("<h2> Your Height is " + getResult.toFixed(2) + " "+ "Feet </h2>");
 
 
