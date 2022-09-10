@@ -13,7 +13,7 @@ function inchToFeet(enterValue){
 
 // Enter Value Here 
 var getResult = inchToFeet(parseFloat(prompt("Enter your height in inches :")));
-document.write("<h2> Your Height is " + getResult.toFixed(2) + " "+ "Feet </h2>");
+document.write("<h2> Result: Converted Height/width is " + getResult.toFixed(2) + " "+ "Feet </h2>");
 
 
 // Alternative Solution 
